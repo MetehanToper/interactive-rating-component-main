@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assect/css/desktop-css.css">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  
+    <section class="container">
+       <!-- Rating state start -->
+      <div class="card-main">
+        <div class="icon-star">
+          <img src="./images/icon-star.svg" alt="star-icon">
+        </div>
+        <div class="card-text">
+          <h1>How did we do?</h1>
+          <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="circle-num">
+          <ul>
+            <li ><button class="circle" id="btn">1</button></li>
+            <li ><button class="circle" id="btn">2</button></li>
+            <li ><button class="circle" id="btn">3</button></li>
+            <li ><button class="circle" id="btn">4</button></li>
+            <li ><button class="circle" id="btn">5</button></li>
+          </ul>
+        </div>
+        <button class="btn" id="submit">SUBMİT</button>
+      </div>
+    </section>
+     <!-- Thank you state start -->
+    <section class="conteiner_2 hidden">
+       <div class="thankyou">
+        <div class="icon-phone">
+          <img src="./images/illustration-thank-you.svg" alt="thankyou">
+        </div>
+        <p class="slected"> You selected 
+          <span id="rating"> </span> out of 5</p>
+        <h1 class="thank-header">Thank you!</h1>
+        <p class="text-thankyou">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+        </p>
+        <button class="btn" id="rate-again" >RATE AGAİN</button>
+       </div>  
+   </section>
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mete Han TOPER</a>.
+  </div>
+
+  <script src="./assect/js-desktop.js" ></script>
+</body>
+</html>

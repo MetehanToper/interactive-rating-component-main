@@ -1,0 +1,182 @@
+$Color-White: hsl(0, 0%, 100%);
+$Color-Light-Grey: hsl(217, 12%, 63%);
+$Medium-Grey: hsl(216, 12%, 54%);
+$Dark-Blue: hsl(213, 19%, 18%);
+$Very-Dark-Blue: hsl(216, 12%, 8%);
+$Primary-Orange: hsl(25, 97%, 53%);
+
+$font-fam:'Overpass', sans-serif;
+
+body{
+    font-size: 15px;
+    font-family: $font-fam;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: $Very-Dark-Blue;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: $Dark-Blue;
+    width: 340px;
+    margin:100px auto;
+    border-radius: 20px;
+    padding: 20px;
+    .card-main{
+       
+        padding: 5px;
+        .icon-star{
+            img{
+                margin-left: 15px;
+                border-radius: 50%;
+                padding: 15px;
+                background-color: hsla(216, 12%, 8%,.3) ;
+                text-align: center;
+                align-items: center;
+            }
+        }
+        .card-text{
+            margin-top:35px;
+            h1{
+                color:$Color-White;
+                letter-spacing:.5;
+                font-size:1.6rem;
+                font-weight: 700;
+            }
+            p{
+                color: $Color-Light-Grey;
+            }
+        }
+        .circle-num{
+            padding: 0;
+            margin-top: 40px;
+            text-align: center;
+            justify-content: center;
+            ul{
+                display: flex;
+                justify-content:right;
+                text-align: center;
+                gap: 20px;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                li{
+                    border-radius: 50%;
+                    .circle{
+                        border: 1px solid hsla(216, 12%, 8%,.3) ;
+                        font-size: 1.3rem;
+                        font-weight: 400;
+                        border-radius: 50%;
+                        padding: 18px;
+                        color: $Color-Light-Grey;
+                        background-color:hsla(216, 12%, 8%,.3);
+                        transition: 0.3s;
+                    }  
+                    .circle:hover{
+                        cursor: pointer;
+                        background-color: $Primary-Orange;
+                        color: $Color-White;
+                    }
+                    .circle:focus{
+                        background-color: $Medium-Grey;
+                    }
+
+                }
+                
+            }
+        }
+      
+         .btn{
+                border: 1px solid $Primary-Orange;
+                border-radius: 30px;
+                width: 95%;
+                height: 40px;
+                font-size: 1rem;
+                font-weight: 400;
+                color: $Color-White;
+                background-color: $Primary-Orange;
+                margin-top: 35px;
+                margin-left: 5px;
+                margin-bottom: 15px;  
+            }
+            .btn:hover{
+                cursor: pointer;
+                background-color: $Color-White;
+                color:$Primary-Orange;
+                border: 1px solid $Color-White;
+            }
+        
+    }
+}
+.conteiner_2{
+    background-color: $Dark-Blue;
+    width: 340px;
+    margin:100px auto;
+    border-radius: 20px;
+    padding: 20px;
+    .thankyou{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        .icon-phone{
+            margin-top: 15px;
+        }
+        .slected{
+            color: $Primary-Orange;
+            background-color: hsla(216, 12%, 8%,.3);
+            width: 60%;
+            height: 20px;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 400;
+            border-radius: 30px;
+            padding: 10px;
+        }
+        .thank-header{
+            font-size: 2rem;
+            font-weight: 700;
+            color: $Color-White;
+        }
+        .text-thankyou{
+            color: $Color-Light-Grey;
+            text-align: center;
+        }
+        .btn{
+            border: 1px solid $Primary-Orange;
+            border-radius: 30px;
+            width: 95%;
+            height: 40px;
+            font-size: 1rem;
+            font-weight: 400;
+            color: $Color-White;
+            background-color: $Primary-Orange;
+            margin-top: 35px;
+            margin-left: 5px;
+            margin-bottom: 15px;  
+        }
+        .btn:hover{
+            cursor: pointer;
+            background-color: $Color-White;
+            color:$Primary-Orange;
+            border: 1px solid $Color-White;
+        }
+
+    }
+}
+.hidden{
+  display: none;
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 25px;
+    color: $Color-Light-Grey;
+     a { 
+        color:$Color-White;
+     } 
+}

@@ -1,0 +1,165 @@
+body {
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  width: 340px;
+  margin: 100px auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+.container .card-main {
+  padding: 5px;
+}
+.container .card-main .icon-star img {
+  margin-left: 15px;
+  border-radius: 50%;
+  padding: 15px;
+  background-color: hsla(216, 12%, 8%, 0.3);
+  text-align: center;
+  align-items: center;
+}
+.container .card-main .card-text {
+  margin-top: 35px;
+}
+.container .card-main .card-text h1 {
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.5;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.container .card-main .card-text p {
+  color: hsl(217, 12%, 63%);
+}
+.container .card-main .circle-num {
+  padding: 0;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+}
+.container .card-main .circle-num ul {
+  display: flex;
+  justify-content: right;
+  text-align: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container .card-main .circle-num ul li {
+  border-radius: 50%;
+}
+.container .card-main .circle-num ul li .circle {
+  border: 1px solid hsla(216, 12%, 8%, 0.3);
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: 50%;
+  padding: 18px;
+  color: hsl(217, 12%, 63%);
+  background-color: hsla(216, 12%, 8%, 0.3);
+  transition: 0.3s;
+}
+.container .card-main .circle-num ul li .circle:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.container .card-main .circle-num ul li .circle:focus {
+  background-color: hsl(216, 12%, 54%);
+}
+.container .card-main .btn {
+  border: 1px solid hsl(25, 97%, 53%);
+  border-radius: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  margin-top: 35px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+.container .card-main .btn:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+.conteiner_2 {
+  background-color: hsl(213, 19%, 18%);
+  width: 340px;
+  margin: 100px auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+.conteiner_2 .thankyou {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner_2 .thankyou .icon-phone {
+  margin-top: 15px;
+}
+.conteiner_2 .thankyou .slected {
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(216, 12%, 8%, 0.3);
+  width: 60%;
+  height: 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 30px;
+  padding: 10px;
+}
+.conteiner_2 .thankyou .thank-header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+.conteiner_2 .thankyou .text-thankyou {
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+}
+.conteiner_2 .thankyou .btn {
+  border: 1px solid hsl(25, 97%, 53%);
+  border-radius: 30px;
+  width: 95%;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  margin-top: 35px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+.conteiner_2 .thankyou .btn:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 25px;
+  color: hsl(217, 12%, 63%);
+}
+.attribution a {
+  color: hsl(0, 0%, 100%);
+}/*# sourceMappingURL=desktop-css.css.map */
